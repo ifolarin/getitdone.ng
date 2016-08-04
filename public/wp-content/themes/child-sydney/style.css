@@ -1,19 +1,240 @@
 /*
 Theme Name: child-Sydney
-Version: 1.0
-Description: A child theme of Sydney
 Template: sydney
+Description: A child theme of Sydney
+Version: 1.0.1469470033
+Updated: 2016-07-25 18:07:13
+
 */
 
-@import url("../sydney/style.css");
+/*
+Primary Color 
+color: rgb(35, 147, 111);
+Primary Color 
+color: #23936f;
 
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]
-{
-width: 100%;
-margin-bottom: 10px;
+Secondary Color: rgb(81, 183, 172);
+Secondary Color: #51b7ac;
+*/
+
+
+h1.title-post{
+	color: #23936f;	
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 2.5em !important;
 }
 
-.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
-   height: 1.5em;
-   padding: 0;
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"],
+	input[type="datetime-local"], input[type="date"], input[type="month"],
+	input[type="time"], input[type="week"], input[type="number"], input[type="email"],
+	input[type="url"], input[type="search"], input[type="tel"], input[type="color"]
+	{
+	margin-bottom: 10px;
+	width: 100%;
 }
+
+.roll-button {
+	width: 240px;
+	margin: 0 5px 10px 5px;
+	
+}
+
+
+.roll-button:hover{
+	border-color: #51b7ac;
+	background: #51b7ac;
+	color: #ffffff !important;
+}
+
+/*
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year
+	{
+	height: 1.5em;
+	padding: 0;
+}
+
+
+.cta-container{
+	background: transparent;
+	width: 60%;
+	position: absolute;
+	top:40%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 10;
+}
+
+#cta-container {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	width: 100%;
+	min-height: 260px;
+	padding-top: 5px;
+	margin: 0 auto;
+	width: 60%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+		position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	min-width: 300px;
+	width:600px;
+	z-index: 20;
+}
+
+
+
+#cta-container {
+	position: absolute;
+	top: 150px;
+	z-index: 4;left: 0;
+	right: 0;
+	min-width: 300px;
+	width:600px;	
+	background:rgba(0,0,0,0.5);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
+}
+
+#cta-container h2{
+	color: #ffffff;
+	text-shadow: 0px 2px 2px rgba(255,255,255, .4);
+	font-size: 2.5em;
+}
+
+.list-group-item{
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #707070;	
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	-khtml-border-radius: 0px;
+}
+
+.list-group-item:last-child{
+	border-bottom: 0;
+}
+
+.list-group-item:hover{
+	background: rgba(81, 183, 172, 1);
+	border-bottom: 1px solid rgba(81, 183, 172, 1);
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	-khtml-border-radius: 0px;
+}
+
+.list-group-item:last-child:hover{
+	background: transparent;
+	border-bottom: 0;
+}
+
+#left-col{
+	border-right: 1px solid #707070;
+	
+}
+
+.col-xs-6{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-width: 300px;
+}
+
+ul.list-group{
+	    list-style-type: none;
+    padding-left: 10px;
+}
+
+.list-group-item {
+	font-weight: normal;
+	color: #ffffff;
+	padding: 0.4em 10px;
+	font-size: 1.3em;
+}
+
+.list-group-item label{
+	font-weight: 600;
+}
+
+button.btn, button.btn-default{
+	background: rgba(35, 147, 111, 1);
+	border: 1px solid rgba(35, 147, 111, 1);
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Raleway","Source Sans Pro", sans-serif;
+}
+
+button.btn:hover, button.btn-default:hover{
+	background: rgba(81, 183, 172, 1);
+	border: 1px solid rgba(81, 183, 172, 1);
+	color: #ffffff;
+}
+
+.slide-inner.text-slider-stopped {
+    display: none !important;
+}
+
+*/
+
+/* for screen resolutions portrait and landscape below 600px with */
+
+/*
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+	#cta-container{
+		width: 90%;
+	}
+	
+	.col-xs-6{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-width: 300px;
+	width: 80%;
+	}
+	
+	#left-col{		
+	border-right: 0;
+	}
+}
+
+
+.cta-container  input[type="text"]:focus {
+	box-shadow: 0 0 5px rgba(35, 147, 111, 1);
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(35, 147, 111, 1);
+}
+
+.cta-container  input[type="text"], button.btn, button.btn-default{
+	font-family: Gotham, Sans;
+	font-weight: normal;
+}
+
+.form-inline .form-group {
+	display: inline-block;
+}
+
+
+button.btn, button.btn-default{
+	height: 35px;
+	line-height: 150%;
+	padding: 0 20px;
+}
+
+button.btn:hover, button.btn-default:hover{
+	color:#ffffff;
+	border: 1px solid rgba(81,183,172,1);
+	background: rgba(81,183,172,1);
+}
+*/

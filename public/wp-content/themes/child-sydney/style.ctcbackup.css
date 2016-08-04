@@ -1,0 +1,19 @@
+/*
+Theme Name: child-Sydney
+Version: 1.0
+Description: A child theme of Sydney
+Template: sydney
+*/
+
+@import url("../sydney/style.css");
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]
+{
+width: 100%;
+margin-bottom: 10px;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+   height: 1.5em;
+   padding: 0;
+}
